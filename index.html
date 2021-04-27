@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <!-- 引入animate.js -->
+     <link rel="stylesheet" href="https://unpkg.com/animate.css@3.5.2/animate.min.css">
+    <title>网易云音乐</title>
+</head>
+
+<body>
+    <div class="input-box">
+        <input  class="animated bounceInLeft" placeholder="请输入歌曲名或者歌手" oninput="getSearchLists(audio,this.value)">
+        <ul class="info animated bounceInDown"></ul>
+        <div class="player"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
